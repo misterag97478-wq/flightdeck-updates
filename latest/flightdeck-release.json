@@ -1,0 +1,99 @@
+{
+  "AppId": "FlightDeck",
+  "Version": "1.78.0",
+  "Platform": "win-x64",
+  "Protocol": 1,
+  "Notes": "Gestionnaire des logiciels et contr\u00F4le des versions\n\n\u2022 Options \u2192 Logiciels : ajout, chemin, arguments, s\u00E9lection, retrait sans d\u00E9sinstallation.\n\u2022 Version locale de l\u2019EXE, page \u00E9diteur et consultation WinGet en lecture seule par identifiant exact configur\u00E9.\n\u2022 Pr\u00E9servation des chemins manuels et des logiciels renomm\u00E9s apr\u00E8s d\u00E9tection.\n\u2022 V\u00E9rification au lancement d\u2019un manifeste sign\u00E9, avec dur\u00E9e limit\u00E9e et \u00E9tat explicite en cas d\u2019\u00E9chec.\n\u2022 Aucun t\u00E9l\u00E9chargement ou remplacement silencieux : ZIP sign\u00E9 et confirmation restent n\u00E9cessaires.\n\nLa v\u00E9rification en ligne utilise le d\u00E9p\u00F4t public flightdeck-updates. Si la publication distante n\u2019est pas encore disponible, le contr\u00F4le indique explicitement son indisponibilit\u00E9. Le lien de t\u00E9l\u00E9chargement Flightsim.to reste \u00E0 renseigner apr\u00E8s publication de la fiche.\n",
+  "Files": [
+    {
+      "Path": "Data/INSTALLATION.md",
+      "Length": 2780,
+      "Sha256": "DD89C2D36BD52093301A31B15F6CAB322F9C263529CD16479F1ECE8D79778463"
+    },
+    {
+      "Path": "Data/README.md",
+      "Length": 362,
+      "Sha256": "40798898A0D0BC4E2E28BDC385281CA2F98A48E8B7AAA484DFA39A276741FABF"
+    },
+    {
+      "Path": "Data/airports.csv",
+      "Length": 12703718,
+      "Sha256": "89701AA683511A1390D0088F6211B949C7C53ED69DE03B9C89F27E8218C2C810"
+    },
+    {
+      "Path": "Data/flightsim-to.txt",
+      "Length": 1,
+      "Sha256": "01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B"
+    },
+    {
+      "Path": "Data/update-feed.txt",
+      "Length": 83,
+      "Sha256": "E7DD7040715A730155B7532C1234FBEF202BF8F2757C960FB06B0F61E985CF33"
+    },
+    {
+      "Path": "FlightDeck.UpdateCore.dll",
+      "Length": 47616,
+      "Sha256": "CB00FE29736ECFD16B7025ED88B58293D6EACA2961B5D5CEF2FA3411214F014F"
+    },
+    {
+      "Path": "FlightDeck.UpdateCore.pdb",
+      "Length": 18888,
+      "Sha256": "D97CC364EAD581C5FE879A28C7831E8F485F685E385F0132D6C1F41ED88514E1"
+    },
+    {
+      "Path": "FlightDeck.Updater.deps.json",
+      "Length": 927,
+      "Sha256": "66C1B6CF3CECCD29A51FABC08D71AC6BE6D4A9C6AD38CD68486B2F31997ACEF2"
+    },
+    {
+      "Path": "FlightDeck.Updater.dll",
+      "Length": 12288,
+      "Sha256": "AA5780E2D6ED48212B56D16AFF4C182B0FFE19A76CF02A2745AB2F1E70506CD8"
+    },
+    {
+      "Path": "FlightDeck.Updater.exe",
+      "Length": 162304,
+      "Sha256": "99E8626179B8FC6AB1E42E22E66B1DAF7D122F42119C79A690F93B028389FD35"
+    },
+    {
+      "Path": "FlightDeck.Updater.pdb",
+      "Length": 12060,
+      "Sha256": "3F3423F98E4000359AC909EA585158068AA9FE81228322817EA458BBEB39E64A"
+    },
+    {
+      "Path": "FlightDeck.Updater.runtimeconfig.json",
+      "Length": 399,
+      "Sha256": "3E965CD7CFD553C2FF4E842D8D8019AAAE2DA0A21D92FF85A87573DD8D1B95C6"
+    },
+    {
+      "Path": "FlightDeck.deps.json",
+      "Length": 903,
+      "Sha256": "AD0E638009BAE9163364449075C621ACE6FB00D1E5404CBD8EDE39CD4496D237"
+    },
+    {
+      "Path": "FlightDeck.dll",
+      "Length": 700416,
+      "Sha256": "ED5098D3990F8277E842F9B15BA16299F38BADE320A9C02A05245DADD624585F"
+    },
+    {
+      "Path": "FlightDeck.exe",
+      "Length": 233984,
+      "Sha256": "AD187489C5F442108AFF9AD5E7B024BE6C1A9FB8CEB9F6B6E83980C86811AD32"
+    },
+    {
+      "Path": "FlightDeck.pdb",
+      "Length": 110060,
+      "Sha256": "0DC7413D190C53AADAD7F6E2AC1153DDBE1C754F8C1C575C886A125A48F6E15A"
+    },
+    {
+      "Path": "FlightDeck.runtimeconfig.json",
+      "Length": 519,
+      "Sha256": "96BC2946DFF8790400D652EC7F8DE7BB043E954980D59470C112788B68A1FBD3"
+    },
+    {
+      "Path": "THIRD-PARTY-NOTICES.md",
+      "Length": 2025,
+      "Sha256": "98FCCE5A1B1714FE66968CD6AADB2A1FE3A7526BC937FCD9AD992EAF9ED2C81A"
+    }
+  ]
+}
