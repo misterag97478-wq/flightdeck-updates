@@ -1,14 +1,14 @@
 {
   "AppId": "FlightDeck",
-  "Version": "1.78.0",
+  "Version": "1.79.0",
   "Platform": "win-x64",
   "Protocol": 1,
-  "Notes": "Gestionnaire des logiciels et contr\u00F4le des versions\n\n\u2022 Options \u2192 Logiciels : ajout, chemin, arguments, s\u00E9lection, retrait sans d\u00E9sinstallation.\n\u2022 Version locale de l\u2019EXE, page \u00E9diteur et consultation WinGet en lecture seule par identifiant exact configur\u00E9.\n\u2022 Pr\u00E9servation des chemins manuels et des logiciels renomm\u00E9s apr\u00E8s d\u00E9tection.\n\u2022 V\u00E9rification au lancement d\u2019un manifeste sign\u00E9, avec dur\u00E9e limit\u00E9e et \u00E9tat explicite en cas d\u2019\u00E9chec.\n\u2022 Aucun t\u00E9l\u00E9chargement ou remplacement silencieux : ZIP sign\u00E9 et confirmation restent n\u00E9cessaires.\n\nLa v\u00E9rification en ligne utilise le d\u00E9p\u00F4t public flightdeck-updates. Si la publication distante n\u2019est pas encore disponible, le contr\u00F4le indique explicitement son indisponibilit\u00E9. Le lien de t\u00E9l\u00E9chargement Flightsim.to reste \u00E0 renseigner apr\u00E8s publication de la fiche.\n",
+  "Notes": "Mises \u00E0 jour simplifi\u00E9es\n\n\u2022 Un bouton retrouve les ZIP FlightDeck t\u00E9l\u00E9charg\u00E9s et pr\u00E9pare la version sign\u00E9e la plus r\u00E9cente compatible.\n\u2022 Glisser-d\u00E9poser d\u2019un ZIP ou d\u2019un dossier de mise \u00E0 jour d\u00E9j\u00E0 d\u00E9compress\u00E9.\n\u2022 S\u00E9lecteur de dossier pour \u00E9viter de devoir recr\u00E9er une archive.\n\u2022 Configuration technique repli\u00E9e : l\u2019action principale reste visible.\n\u2022 Message explicite pour les ZIP \u00AB Source code \u00BB GitHub, qui ne contiennent pas l\u2019application.\n\nLa signature et chaque fichier restent v\u00E9rifi\u00E9s. L\u2019installation et le red\u00E9marrage demandent toujours confirmation. Aucun t\u00E9l\u00E9chargement automatique ni modification des mods.\n",
   "Files": [
     {
       "Path": "Data/INSTALLATION.md",
-      "Length": 2780,
-      "Sha256": "DD89C2D36BD52093301A31B15F6CAB322F9C263529CD16479F1ECE8D79778463"
+      "Length": 3369,
+      "Sha256": "03239CE0856E5E32B4E836A9619C593F7FD506F967C56305478AC484FFAD405C"
     },
     {
       "Path": "Data/README.md",
@@ -32,33 +32,33 @@
     },
     {
       "Path": "FlightDeck.UpdateCore.dll",
-      "Length": 47616,
-      "Sha256": "CB00FE29736ECFD16B7025ED88B58293D6EACA2961B5D5CEF2FA3411214F014F"
+      "Length": 52224,
+      "Sha256": "E8E6CC27A9E5487DBCA3D40BD65762CBD9B758D6109EF8524EC99C72EDDDDB44"
     },
     {
       "Path": "FlightDeck.UpdateCore.pdb",
-      "Length": 18888,
-      "Sha256": "D97CC364EAD581C5FE879A28C7831E8F485F685E385F0132D6C1F41ED88514E1"
+      "Length": 20124,
+      "Sha256": "11F1A632CCB4A8158AA869989753782EFFB203D3ABF145C74F4F71BED03BC7AC"
     },
     {
       "Path": "FlightDeck.Updater.deps.json",
       "Length": 927,
-      "Sha256": "66C1B6CF3CECCD29A51FABC08D71AC6BE6D4A9C6AD38CD68486B2F31997ACEF2"
+      "Sha256": "49F1BF13DEA2FAC509D3F9E227A1717A921A754989EDCF9BE9F3C109ADC8C663"
     },
     {
       "Path": "FlightDeck.Updater.dll",
       "Length": 12288,
-      "Sha256": "AA5780E2D6ED48212B56D16AFF4C182B0FFE19A76CF02A2745AB2F1E70506CD8"
+      "Sha256": "8FE29A5817DFB80E0DA1CD1B63867B3147D251BB60C95551CC4D1A36EB46F1C1"
     },
     {
       "Path": "FlightDeck.Updater.exe",
       "Length": 162304,
-      "Sha256": "99E8626179B8FC6AB1E42E22E66B1DAF7D122F42119C79A690F93B028389FD35"
+      "Sha256": "FE1B9EE16C727F0F3A8B61C9F3FC075933F4EAEB82339019CBDB4C7BA87F6610"
     },
     {
       "Path": "FlightDeck.Updater.pdb",
       "Length": 12060,
-      "Sha256": "3F3423F98E4000359AC909EA585158068AA9FE81228322817EA458BBEB39E64A"
+      "Sha256": "D053633B2814D682A0ADCA95F60D2B5D7B549E04259621179D9486440C591E89"
     },
     {
       "Path": "FlightDeck.Updater.runtimeconfig.json",
@@ -68,22 +68,22 @@
     {
       "Path": "FlightDeck.deps.json",
       "Length": 903,
-      "Sha256": "AD0E638009BAE9163364449075C621ACE6FB00D1E5404CBD8EDE39CD4496D237"
+      "Sha256": "8432FA2A9A0916E63AE72FE4098002236E08DDEAEE380678279DF781B914E20A"
     },
     {
       "Path": "FlightDeck.dll",
-      "Length": 700416,
-      "Sha256": "ED5098D3990F8277E842F9B15BA16299F38BADE320A9C02A05245DADD624585F"
+      "Length": 704512,
+      "Sha256": "2B47A2488E2250991D119D0C204893D9380CC33386E14210103A455AEC4CA178"
     },
     {
       "Path": "FlightDeck.exe",
       "Length": 233984,
-      "Sha256": "AD187489C5F442108AFF9AD5E7B024BE6C1A9FB8CEB9F6B6E83980C86811AD32"
+      "Sha256": "462D5DB4DEBDF1E213902AC7402A834FD7906C26A1A2B66209A85B097EB25F4D"
     },
     {
       "Path": "FlightDeck.pdb",
-      "Length": 110060,
-      "Sha256": "0DC7413D190C53AADAD7F6E2AC1153DDBE1C754F8C1C575C886A125A48F6E15A"
+      "Length": 110844,
+      "Sha256": "3D781447E8444B67BABC07D56B8F98967F2CC044C2A3B9C094C41DDBB4682204"
     },
     {
       "Path": "FlightDeck.runtimeconfig.json",
